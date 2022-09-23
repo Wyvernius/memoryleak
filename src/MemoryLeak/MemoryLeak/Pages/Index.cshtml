@@ -1,5 +1,4 @@
-﻿@page
-
+﻿@page "/diagnostics"
 @{
     Layout = null;
 }
@@ -164,8 +163,8 @@
             }
         });
 
-        const diagnosticsUrl = "/api/diagnostics";
-        const collectUrl = "/api/collect";
+        const diagnosticsUrl = "/diagnostics/diagnostics";
+        const collectUrl = "/diagnostics/collect";
 
         const maxEntries = 50;
         const interval = 300;

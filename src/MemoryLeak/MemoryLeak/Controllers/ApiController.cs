@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MemoryLeak.Controllers
 {
-    [Route("api")]
+    [Route("diagnostics")]
     [ApiController]
     public class ApiController : ControllerBase
     {
