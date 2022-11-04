@@ -30,3 +30,5 @@ project.lock.json
 .build/
 .testPublish/
 global.json
+
+src/MemoryLeak/MemoryLeak/Properties/launchSettings.json
